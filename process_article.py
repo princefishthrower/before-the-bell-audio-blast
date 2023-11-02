@@ -9,7 +9,7 @@ engine = pyttsx3.init()
 
 def getText():
     if os.path.isfile("/home/chris/projects/chrisfrew.in/public/before-the-bell/report.mp3"):
-        reuturn
+        return
 
     oDate = datetime.date.today()
     sYear = str(oDate.year)
